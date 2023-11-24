@@ -62,7 +62,7 @@ nav ul li a:hover{
     display: block;
     padding: 5rem 0 0 8rem;
     background-image: linear-gradient(-176deg, #deb887 10%, #121212 40%);
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px dotted #e7e7e7a6;
 }
 #banner .mainBanner{
     width: 100%;
@@ -135,8 +135,9 @@ nav ul li a:hover{
 /* EXPERIMENTO */
 #experimento{
     width: 100%;
-    height: 60rem;
+    height: auto;
     background-color: #121212;
+    border-bottom: 1px dotted #e7e7e7a6;
 }
 .experimentoMain{
     width: 80%;
@@ -144,33 +145,81 @@ nav ul li a:hover{
     margin: 0 auto;
     padding: 5rem 0;
     display: block;
-    background-color: red;
 }
 .textoExperimento{
     width: 80%;
     height: auto;
     margin: 0 auto;
     text-align: center;
-    background-color: yellow;
+    color: #fff;
 }
 .textoExperimento h1{
-    font-size: 4rem;
+    font-size: 2.6rem;
 }
 .textoExperimento h3{
-    font-size: 2rem;
-    padding: 1rem 0 2rem;
+    width: 78%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: .5rem 0 2rem;
 }
 .tabelaExperimento{
     width: 80%;
     height: auto;
     margin: 0 auto;
     text-align: center;
-    background-color: #ffd2d7;
 }
 .tabelaExperimento table{
-    width: 80%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
     text-align: center;
-    background-color: aqua;
+    border-collapse: collapse;
+}
+table .heade{
+    height: 8rem;
+}
+table .heade1{
+    width: 40%;
+    color: #fff;
+    padding: 0 2rem;
+    text-align: left;
+    border: 1px solid #e1e1e109;
+    border-bottom: 1px solid #e1e1e154;
+    background-color: #121212;
+}
+table .heade2{
+    width: 28%;
+    color: #000;
+    padding: 0 1.5rem;
+    text-align: left;
+    border: 1px solid #e1e1e154;
+    background-color: #fff;
+}
+table .heade3{
+    width: 32%;
+    color: #fff;
+    padding: 0 2rem;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #e1e1e154;
+    background-color: #ad2489;
+}
+table tr td{
+    border: .1px solid #e1e1e154;
+}
+table tr td:first-of-type{
+    text-align: left;
+    padding: 2rem 1rem;
+    color: #fff;
+}
+table .linha{
+    color: #ffffff8c;
+    font-size: 2rem;
+}
+table .coluna3{
+    background-color: #ad2488ad;
+}
+table .coluna3 i{
+    color: #fff;
+    font-size: 2.2rem;
 }

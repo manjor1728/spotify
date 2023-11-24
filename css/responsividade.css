@@ -18,7 +18,33 @@
         margin-top: 8rem;
     }
 
-   
+    /* BANNER */
+    #banner{
+        border-bottom: none;
+    }
+
+   /* EXPERIMENTO */
+    #experimento{
+        width: 100%;
+        height: auto;
+        background-color: #121212;
+        border-bottom: none;
+    }
+    
+    table tr td{
+        border-left: none;
+        border-right: none;
+    }
+    table tr td:first-of-type{
+        border-right: none;
+    }
+    table .linha{
+        border-left: none;
+        border-right: none;
+    }
+    table .coluna3{
+        border-left: none;
+    }
 }
 
 
@@ -80,6 +106,22 @@
     }
     .botoes button{
         padding: .6rem 1.86rem;
+    }
+
+
+    /* EXPERIMENTO */
+    .experimentoMain{
+        width: 100%;
+    }
+    .textoExperimento{
+        text-align: left;
+    }
+    .textoExperimento h1{
+        font-size: 2.6rem;
+    }
+    .textoExperimento h3{
+        width: 100%;
+        font-size: 1.4rem;
     }
 }
 
@@ -143,6 +185,60 @@
     .botoes .btn1{
         margin-bottom: 1rem;
     }
+
+
+    
+    /* EXPERIMENTO */
+    .experimentoMain{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .textoExperimento{
+        width: 90%;
+        text-align: left;
+    }
+    .textoExperimento h1{
+        font-size: 28px;
+    }
+    .textoExperimento h3{
+        font-size: 18px;
+        padding: .5rem 0 1.5rem;
+        font-weight: lighter;
+    }
+    
+    .tabelaExperimento{
+        width: 100%;
+    }
+    .tabelaExperimento table{
+        width: 100%;
+    }
+    table .heade{
+        height: 7rem;
+    }
+    table .heade1{
+        padding: 0 .6rem;
+    }
+    table .heade2{
+        padding: 0 1rem;
+    }
+    table .heade3{
+        padding: 0 1.5rem;
+    }
+    table tr td{
+        border: .1px solid #e1e1e154;
+    }
+    table tr td:first-of-type{
+        text-align: left;
+        padding: 1rem .6rem;
+        color: #fff;
+    }
+    table .linha{
+        color: #ffffff8c;
+        font-size: 2rem;
+    }
+    table .coluna3{
+        background-color: #ad2488ad;
+    }
 }
 
 
@@ -152,5 +248,10 @@
     /* BANNER */
     #banner{
         height: 48rem;
+    }
+
+    /* EXPERIMENTO */
+    .experimentoMain{
+        padding: 0;
     }
 }

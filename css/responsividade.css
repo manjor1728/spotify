@@ -123,6 +123,30 @@
         width: 100%;
         font-size: 1.4rem;
     }
+
+
+    /* PLANOS */
+    #planos{
+        width: 100%;
+    }
+    #planos .planoMain{
+        width: 90%;
+        background-color: red;
+    }
+    .planoMain .textoPlano{
+        width: 100%;
+    }
+    .textoPlano h2{
+        font-size: 28px;
+    }
+
+    .planoMain .RecursoPlano{
+        width: 75%;
+        margin: 1rem auto 0;
+    }
+    .RecursoPlano .infoRecurso{
+        padding: 1.5rem 2.5rem;
+    }
 }
 
 

@@ -223,3 +223,195 @@ table .coluna3 i{
     color: #fff;
     font-size: 2.2rem;
 }
+
+
+
+
+/* PLANOS */
+#planos{
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+}
+#planos .planoMain{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+.planoMain .textoPlano{
+    text-align: center;
+    color: #fff;
+}
+.textoPlano h2{
+    font-size: 40px;
+}
+.textoPlano h3{
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+}
+
+.planoMain .RecursoPlano{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, #ad2489 45%, #4682de 85%);
+}
+.RecursoPlano .infoRecurso{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 1.5rem 30%;
+    background-color: #121212;
+}
+.infoRecurso h3{
+    font-size: 16px;
+    color: #fff;
+    padding: 4px 0 15px;
+}
+.infoRecurso ul{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.infoRecurso ul li{
+    color: #fff;
+    font-size: 16px;
+    padding: 4px;
+}
+.infoRecurso ul li i{
+    margin-right: 5px;
+}
+
+
+.planoMain .planoPlano{
+    width: 100%;
+    height: auto;
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem
+    ;
+    justify-content: center;
+}
+.plano1{
+    width: 362px;
+    height: 435px;
+    display: block;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 5px solid #ffd2d7;
+}
+.plano1 .dadosPlano1{
+    width: 47%;
+    height: 3rem;
+    padding: 0;
+}
+.plano1 .dadosPlano1 p{
+    background-color: #ffd2d7;
+    padding: 9px 7px;
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.plano1 .dadosPlano2{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    margin: 1.6rem 0;
+    justify-content: space-between;
+}
+.plano1 .dadosPlano2 .dados1{
+    width: 60%;
+    height: auto;
+}
+.plano1 .dadosPlano2 .dados1 h3{
+    font-size: 24px;
+    color: #fff;
+}
+.plano1 .dadosPlano2 .dados2 p:first-of-type{
+    font-size: 18px;
+    color: #fff;
+    margin: 4px 0 0;
+}
+.plano1 .dadosPlano2 .dados2 p:last-of-type{
+    font-size: 10px;
+    color: #fff;
+    margin: 4px 0 0;
+    text-align: right;
+}
+.plano1 .dadosPlano3{
+    width: 100%;
+    height: 4.6rem;
+    display: block;
+    margin-bottom: 1.6rem;
+}
+.plano1 .dadosPlano3 ul{
+    width: 100%;
+    display: block;
+    padding: 0 16px;
+}
+.plano1 .dadosPlano3 ul li{
+    list-style: disc;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px;
+}
+.plano1 .dadosPlano4{
+    width: 100%;
+    height: 8rem;
+    display: block;
+}
+.plano1 .dadosPlano4 button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffd2d7;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .2s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.plano1 .dadosPlano4 button:hover{
+    transform: scale(1.05);
+}
+.plano1 .dadosPlano4 p{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.planoMain .planoPlano .plano2{
+    border: 5px solid #c4b1d4;
+}
+.plano2 .dadosPlano1 p{
+    background-color: #c4b1d4;
+}
+.plano2 .dadosPlano4 button{
+    background-color: #c4b1d4;
+}
+.planoMain .planoPlano .plano3{
+    border: 5px solid #ffc862;
+}
+.plano3 .dadosPlano1 p{
+    background-color: #ffc862;
+}
+.plano3 .dadosPlano4 button{
+    background-color: #ffc862;
+}
+.planoMain .planoPlano .plano4{
+    border: 5px solid #a5bbd1;
+}
+.plano4 .dadosPlano1 p{
+    background-color: #a5bbd1;
+}
+.plano4 .dadosPlano4 button{
+    background-color: #a5bbd1;
+}

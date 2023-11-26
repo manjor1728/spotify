@@ -62,7 +62,7 @@ nav ul li a:hover{
     display: block;
     padding: 5rem 0 0 8rem;
     background-image: linear-gradient(-176deg, #deb887 10%, #121212 40%);
-    border-bottom: 1px dotted #e7e7e7a6;
+    border-bottom: 1px solid #353535;
 }
 #banner .mainBanner{
     width: 100%;
@@ -137,7 +137,7 @@ nav ul li a:hover{
     width: 100%;
     height: auto;
     background-color: #121212;
-    border-bottom: 1px dotted #e7e7e7a6;
+    border-bottom: 1px solid #353535;
 }
 .experimentoMain{
     width: 80%;
@@ -232,7 +232,7 @@ table .coluna3 i{
     width: 100%;
     height: auto;
     background-color: #121212;
-    border-bottom: 1px dotted #e7e7e7a6;
+    border-bottom: 1px solid #353535;
 }
 #planos .planoMain{
     width: 90%;
@@ -421,19 +421,19 @@ table .coluna3 i{
 
 
 
-/* DIVIDAS */
+/* DÚIDAS */
 #duvida{
     width: 100%;
     height: auto;
     background-color: #121212;
+    border-bottom: 1px solid #353535;
 }
 .duvidaMain{
-    width: 80%;
+    width: 85%;
     height: 100%;
     display: block;
     margin: 0 auto;
-    padding: 4rem 0;
-    background-color: red;
+    padding: 3rem 0 0;
 }
 .infoDuvida{
     text-align: center;
@@ -447,58 +447,159 @@ table .coluna3 i{
     margin: 16px 0;
 }
 
-.perguntasDuvida{
+.acordion{
     width: 100%;
     height: auto;
     display: block;
-    padding: 0 0 2rem;
-    background-color: yellow;
+    padding: 0 0 5rem;
 }
-.perguntasDuvida .pergunta1{
+.acordionItem{
     width: 100%;
     height: auto;
     display: block;
     cursor: pointer;
-    background-color: blue;
 }
-.perguntasDuvida .pergunta1 .pergunta{
+.acordionItem:not(:last-of-type){
+    border-bottom: 1px solid #353535;
+}
+.acordionPergunta{
     width: 100%;
     height: auto;
     display: flex;
     font-size: 18px;
-    height: 3rem;
-    line-height: 3rem;
+    height: auto;
+    padding: .5rem 1rem;
+    line-height: 4rem;
     background-color: #2a2a2a;
     color: #fff;
     justify-content: space-between;
+    transition: all .2s;
 }
-.perguntasDuvida .pergunta1 .pergunta i{
-    height: 3rem;
-    line-height: 3rem;
+.acordionPergunta:hover{
+    background: #353535;
+}
+.acordionPergunta i{
+    height: auto;
+    line-height: 4rem;
     font-size: 22px;
     color: #fff;
     background-color: #2a2a2a;
 }
-.perguntasDuvida .pergunta1 .pergunta .botaoUp{
+.acordionPergunta i:hover{
+    background-color: #353535;
+}
+.acordionPergunta .botaoUp{
     display: none;
 }
-.perguntasDuvida .pergunta1 .pergunta .botaoDown{
+.acordionPergunta .botaoDown{
     display: none;
 }
-#duvida .perguntasDuvida .pergunta1 .resposta{
+.acordionResposta{
     width: 100%;
     display: none;
     background-color: #242424;
     cursor: default;
-}
-#duvida .perguntasDuvida .pergunta1 .resposta p{
-    cursor: text;
-}
-.respostaSumir .resposta{
-    display: block;
     padding: 15px 32px 32px;
     font-size: 16px;
     color: #fff;
+}
+.acordionResposta p{
+    cursor: text;
+    line-height: 1.3rem;
+}
+.acordionResposta p:not(:first-of-type){
+    margin-top: 1rem;
+}
+.respostaSumir .acordionResposta{
+    display: block;
     scroll-behavior: smooth;
-    /* transition: all 4s; */
+}
+
+
+
+
+/* FOOTER */
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 4rem;
+    background: #000;
+}
+.footerMain{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.navFooter{
+    width: 1150px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.logoFooter, .navegacao{
+    width: 180px;
+    height: auto;
+    padding: .6rem;
+}
+.logoFooter img{
+    width: 9rem;
+    height: auto;
+}
+.navegacao{
+    width: 200px;
+    height: auto;
+}
+.navegacao h2{
+    color: #919496;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1.2rem;
+}
+.navegacao ul{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.navegacao ul li a{
+    color: #fff;
+    font-size: 16px;
+    margin: 2rem 0;
+}
+.navegacao ul li a:hover{
+    color: #1ed760;
+}
+.navegacao ul li{
+    margin: 1.2rem 0;
+}
+.navegacaoSocialMidea{
+    width: 366px;
+    height: 6rem;
+    display: flex;
+    justify-content: right;
+    padding: 2rem 1.2rem 0;
+    gap: 1rem;
+}
+.navegacaoSocialMidea a i{
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #44444483;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.linkFooter{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+.linkFooter p{
+    margin-bottom: .2rem;
 }

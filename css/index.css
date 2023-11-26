@@ -232,6 +232,7 @@ table .coluna3 i{
     width: 100%;
     height: auto;
     background-color: #121212;
+    border-bottom: 1px dotted #e7e7e7a6;
 }
 #planos .planoMain{
     width: 90%;
@@ -414,4 +415,90 @@ table .coluna3 i{
 }
 .plano4 .dadosPlano4 button{
     background-color: #a5bbd1;
+}
+
+
+
+
+
+/* DIVIDAS */
+#duvida{
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+}
+.duvidaMain{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 0;
+    background-color: red;
+}
+.infoDuvida{
+    text-align: center;
+    color: #fff;
+}
+.infoDuvida h2{
+    font-size: 32px;
+}
+.infoDuvida p{
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+.perguntasDuvida{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 0 2rem;
+    background-color: yellow;
+}
+.perguntasDuvida .pergunta1{
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: blue;
+}
+.perguntasDuvida .pergunta1 .pergunta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 18px;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #2a2a2a;
+    color: #fff;
+    justify-content: space-between;
+}
+.perguntasDuvida .pergunta1 .pergunta i{
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 22px;
+    color: #fff;
+    background-color: #2a2a2a;
+}
+.perguntasDuvida .pergunta1 .pergunta .botaoUp{
+    display: none;
+}
+.perguntasDuvida .pergunta1 .pergunta .botaoDown{
+    display: none;
+}
+#duvida .perguntasDuvida .pergunta1 .resposta{
+    width: 100%;
+    display: none;
+    background-color: #242424;
+    cursor: default;
+}
+#duvida .perguntasDuvida .pergunta1 .resposta p{
+    cursor: text;
+}
+.respostaSumir .resposta{
+    display: block;
+    padding: 15px 32px 32px;
+    font-size: 16px;
+    color: #fff;
+    scroll-behavior: smooth;
+    /* transition: all 4s; */
 }

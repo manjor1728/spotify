@@ -45,6 +45,13 @@
     table .coluna3{
         border-left: none;
     }
+
+
+    /* PLANOS */
+    .planoMain .RecursoPlano{
+        width: 90%;
+        margin: 1rem auto 0;
+    }
 }
 
 
@@ -131,7 +138,6 @@
     }
     #planos .planoMain{
         width: 90%;
-        background-color: red;
     }
     .planoMain .textoPlano{
         width: 100%;
@@ -146,6 +152,10 @@
     }
     .RecursoPlano .infoRecurso{
         padding: 1.5rem 2.5rem;
+    }
+
+    .plano1{
+        width: 472px;
     }
 }
 
@@ -263,6 +273,46 @@
     table .coluna3{
         background-color: #ad2488ad;
     }
+
+
+    /* PLANOS */
+    #planos .planoMain{
+        width: 100%;
+        padding: 3rem 1.5rem;
+    }
+    .planoMain .textoPlano{
+        width: 100%;
+        padding: 0rem;
+    }
+    .textoPlano h2{
+        font-size: 29px;
+    }
+    .textoPlano h3{
+        font-size: 16px;
+        padding: 1rem 0rem;
+    }
+    .planoMain .RecursoPlano{
+        width: 100%;
+        padding: 2.5px;
+    }
+    .RecursoPlano .infoRecurso{
+        border-radius: 10px;
+        padding: 1.5rem 0 1.5rem 1rem;
+    }
+
+
+    /* PLANOS */
+    .plano1{
+        width: 362px;
+        height: auto;
+    }
+    .plano1 .dadosPlano3{
+        height: auto;
+    }
+    .plano1 .dadosPlano4{
+        width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -277,5 +327,10 @@
     /* EXPERIMENTO */
     .experimentoMain{
         padding: 0;
+    }
+    
+    /* PLANOS */
+    .plano1{
+        padding: .8rem .8rem 1rem;
     }
 }
